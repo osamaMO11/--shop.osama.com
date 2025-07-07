@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Loly&Lilo fashion baby store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="لوجو المتجر">
+        </div>
+        <div class="cart-container">
+            <a href="#" class="cart">
+                🛒
+                <span class="cart-count" id="cartCount">0</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="products">
+            <div class="product">
+                <img src="1r9j5RUY.jpeg" alt="فستان أطفال">
+                <div class="product-title">فستان LC Waikiki أزرق</div>
+                <div class="quantity-controls">
+                    <button class="minus">-</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </div>
+                <button class="add-to-cart">أضف للسلة</button>
+            </div>
+            <div class="product">
+                <img src="493687894_4919521414938709_6748520285660764219_n.jpg" alt="سجادة موسيقية">
+                <div class="product-title">سجادة موسيقية للأطفال</div>
+                <div class="quantity-controls">
+                    <button class="minus">-</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </div>
+                <button class="add-to-cart">أضف للسلة</button>
+            </div>
+             <div class="product">
+                <img src="494297478_4924258571131660_1160502396146908411_n.jpg" alt="لعبة قيادة السيارة">
+                <div class="product-title">لعبة عجلة قيادة</div>
+                <div class="quantity-controls">
+                    <button class="minus">-</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </div>
+                <button class="add-to-cart">أضف للسلة</button>
+            </div>
+            <div class="product">
+                <img src="495333837_4924258927798291_7842351912383615317_n.jpg" alt="ساعات أطفال">
+                <div class="product-title">ساعات أطفال ديجيتال</div>
+                <div class="quantity-controls">
+                    <button class="minus">-</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </div>
+                <button class="add-to-cart">أضف للسلة</button>
+            </div>
+
+            <div class="product">
+                <img src="506814165_4979757105581806_3844387947504866710_n.jpg" alt="شورت منقط">
+                <div class="product-title">شورت أطفالي منقط</div>
+                <div class="quantity-controls">
+                    <button class="minus">-</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </div>
+                <button class="add-to-cart">أضف للسلة</button>
+            </div>
+            <div class="product">
+                <img src="507969144_4979755508915299_5755477975002618798_n.jpg" alt="بنطلون أطفال">
+                <div class="product-title">بنطلون بطبعة قطارات</div>
+                <div class="quantity-controls">
+                    <button class="minus">-</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </div>
+                <button class="add-to-cart">أضف للسلة</button>
+            </div>
+            <div class="product">
+                <img src="508001968_4979754285582088_5199592110984978999_n.jpg" alt="سالوبيت داخلي">
+                <div class="product-title">سالوبيت داخلي منقط</div>
+                <div class="quantity-controls">
+                    <button class="minus">-</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </div>
+                <button class="add-to-cart">أضف للسلة</button>
+            </div>
+            <div class="product">
+                <img src="508002383_4979755475581969_4727987845384449301_n.jpg" alt="بنطلون منقوش">
+                <div class="product-title">بنطلون منقوش (Family Future)</div>
+                <div class="quantity-controls">
+                    <button class="minus">-</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </div>
+                <button class="add-to-cart">أضف للسلة</button>
+            </div>
+            <div class="product">
+                <img src="508002663_4979757068915143_3333615119513721545_n.jpg" alt="شورت منقوش">
+                <div class="product-title">شورت أطفالي منقوش</div>
+                <div class="quantity-controls">
+                    <button class="minus">-</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </div>
+                <button class="add-to-cart">أضف للسلة</button>
+            </div>
+            <div class="product">
+                <img src="6aL82MhV.jpeg" alt="فستان بطبعة قلوب">
+                <div class="product-title">فستان LC Waikiki بطبعة قلوب</div>
+                <div class="quantity-controls">
+                    <button class="minus">-</button>
+                    <span class="quantity">1</span>
+                    <button class="plus">+</button>
+                </div>
+                <button class="add-to-cart">أضف للسلة</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="cartModal" class="cart-modal">
+        <div class="cart-modal-content">
+            <span class="close" id="closeCart">&times;</span>
+            <h3>سلة المشتريات</h3>
+            <ul id="cartItems">
+                </ul>
+            <button id="confirmOrder" class="confirm-btn">تأكيد الطلب</button>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
